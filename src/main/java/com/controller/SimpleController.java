@@ -15,7 +15,7 @@ public class SimpleController {
 
 	@GetMapping(value = "/")
 	public String getMessage() {
-		return "Testing Spring Boot with Jenkins running as Docker container";
+		return "Testing Spring Boot with Jenkins running as Docker container by Gala";
 	}
 
 	@PostMapping(value = "/getList")
